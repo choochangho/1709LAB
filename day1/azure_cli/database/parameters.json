@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "choochangho"
+        },
+        "administratorLoginPassword": {
+            "value": "password"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "databaseName": {
+            "value": "lab1709"
+        },
+        "edition": {
+            "value": "Basic"
+        },
+        "location": {
+            "value": "japanwest"
+        },
+        "maxSizeBytes": {
+            "value": "524288000"
+        },
+        "requestedServiceObjectiveId": {
+            "value": "dd6d99bb-f193-4ec1-86f2-43d3bccbc49c"
+        },
+        "sampleName": {
+            "value": ""
+        },
+        "serverName": {
+            "value": "lab1709"
+        }
+    }
+}
